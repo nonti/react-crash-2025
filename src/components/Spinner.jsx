@@ -1,4 +1,4 @@
-import ClipLoader from 'react-spinners/ClipLoader';
+import FadeLoader from 'react-spinners/FadeLoader';
 
 const override = {
   diplay: 'block',
@@ -7,7 +7,7 @@ const override = {
 const Spinner = ({loading}) => {
 
   return (
-    <ClipLoader
+    <FadeLoader
       loading={loading}
       cssOveride={override}
       size={150}
