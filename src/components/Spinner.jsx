@@ -15,9 +15,4 @@ const Spinner = ({loading}) => {
   );
 };
 
-
-Spinner.propTypes = {
-  loading: false
-}
-
 export default Spinner;
